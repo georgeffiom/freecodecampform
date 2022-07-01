@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+body{
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: lightpink;
+}
+
+.body{
+  background-color: rgb(250, 136, 155);
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  opacity: 0.8;
+  border-radius: 7px;
+}
+
+h1{
+  text-align: center;
+  padding: 40px 0px 10px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+p{
+  text-align: center;
+  padding: 0px 0px 30px;
+  font-style:italic ;
+  color: #fff;
+  word-spacing: 5px;
+  font-size: large;
+  text-shadow: 1px 1px 1px #000;
+}
+
+form{
+  padding: 30px 0px;
+}
+
+.form-part{
+  margin-bottom: 20px;
+}
+.intro{
+  display: block;
+  margin: 0 auto;
+  width:90%;
+}
+
+#name{
+  width: 98%;
+  padding-left: 10px;
+  height: 40px;
+  line-height: 40px;
+  border: 2px solid rgb(250, 136, 155);
+  border-radius: 5px;
+}
+
+label{
+  display: inline-block;
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+#email{
+  width: 98%;
+  padding-left: 10px;
+  height: 40px;
+  line-height: 40px;
+  border: 2px solid rgb(250, 136, 155);
+  border-radius: 5px;
+} 
+        
+#age{
+  width: 98%;
+  padding-left: 10px;
+  height: 40px;
+  line-height: 40px;
+  border: 2px solid rgb(250, 136, 155);
+  border-radius: 5px;
+}
+#dropdown{
+  width: 100%;
+  padding-left: 10px;
+  height: 40px;
+  border: 2px solid rgb(250, 136, 155);
+  border-radius: 5px;
+  background-color: #fff;
+  color: #010201;
+}
+
+#dropdown option{
+  color: #010201;
+}
+
+
+#refer,#Check{
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+
+
+#comment{
+  width: 98%;
+  border: 2px solid rgb(250, 136, 155);
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-left:10px;
+}
+
+#submit{
+  width: 100%;
+  border: 2px solid rgb(250, 136, 155);
+  border-radius: 5px;
+  background-color: rebeccapurple;
+  height: 50px;
+  opacity: 100;
+  cursor: pointer;
+  color: #fff;
+}
+
+option{
+  background-color: aqua;
+}
+input{
+  color: #010201;
+}
